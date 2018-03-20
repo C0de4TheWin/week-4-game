@@ -13,22 +13,9 @@
     <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
-
-
-
 </head>
 
 <body>
-        
-
-    
-    
-
-    
-
-
-
-  
 
 
     <div class="page-header">
@@ -41,7 +28,8 @@
         <br>
         <li>You will be given a random number at the start of the game.
             <li>There are four crystals below. By clicking on a crystal, you will add a specific amount of points to your total
-                score.</li>
+                score.
+            </li>
             <li>You win the game by matching your total score to the random number.</li>
             <li>You lose the game if your total score goes above the random number.</li>
             <li>The value of each crystal is hidden from you until you click on it.</li>
@@ -50,20 +38,16 @@
     </div>
 
     <div class="numberToMatch">
-
-        <span id="randomNumber"></span>
         <p id="starting"> Starting Number:</p>
-
-
-
+        <span id="randomNumber"></span>
 
     </div>
     <div class="winsAndLosses">
         <p>Wins:
-            <span id="playerWins"></span>
+            <span id="wins"></span>
             </br>
             Losses:
-            <span id="playerLosses"></span>
+            <span id="losses"></span>
         </p>
     </div>
     <div class="gems">
@@ -78,6 +62,8 @@
         </p>
     </div>
 
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.js"></script>
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
 </body>
 
 </html>
