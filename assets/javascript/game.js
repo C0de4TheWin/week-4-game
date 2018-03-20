@@ -40,10 +40,10 @@ function reset() {
 }
 
 ////adds wins to total
-function yay() {
+function winner() {
     alert("You won!");
     wins++;
-    $('#numberwins').text(wins);
+    $('#wins').text(wins);
     reset();
 }
 
@@ -52,7 +52,7 @@ function yay() {
 function loser() {
     alert("You lose!");
     losses++;
-    $('#numberlosses').text(losses);
+    $('#losses').text(losses);
     reset()
 }
 
